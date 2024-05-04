@@ -1,0 +1,242 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* TYPOGRAPHY */
+
+html {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.55;
+  color: rgb(60, 58, 71);
+}
+
+h1 {
+  font-size: 3.15rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 300;
+  letter-spacing: -1px;
+  color: rgba(60, 58, 71, 0.8);
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin-bottom: 2rem;
+}
+
+h3.large {
+  font-size: 3.15rem;
+}
+.dark h3 {
+  color: rgb(255, 255, 255);
+}
+h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.3rem;
+}
+p {
+  margin-bottom: 1rem;
+}
+
+p.section-intro {
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.dark p.section-intro {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+p.number {
+  font-size: 2.4rem;
+  font-weight: 200;
+  color: rgba(60, 58, 71, 0.5);
+}
+
+p.large {
+  font-size: 1.75rem;
+  font-weight: 200;
+  letter-spacing: -2px;
+}
+
+a {
+  font-weight: 700;
+  color: rgb(159, 118, 87);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(60, 58, 71);
+}
+
+form input,
+form textarea,
+form button {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.55;
+}
+
+/* layout for the container */
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container.small {
+  width: 60%;
+  max-width: 35rem;
+}
+
+/* header section */
+#main-header,
+section {
+  padding: 13rem 0;
+  text-align: center;
+}
+
+#main-header h1 {
+  margin: 7rem 0 1rem 0;
+}
+
+#main-header h2 {
+  margin-bottom: 4rem;
+}
+
+.btn {
+  padding: 1.3rem 3.5rem;
+  border: 1px solid rgb(159, 118, 87);
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: rgb(60, 58, 71);
+  color: rgb(255, 255, 255);
+}
+
+/* Our chair section */
+#our-chairs {
+  background-color: #eff0ea;
+  padding-top: 3rem;
+}
+
+section header {
+  margin-top: 3.5rem;
+}
+
+h3 + p {
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.gallery img {
+  max-width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.gallery div {
+  text-align: start;
+}
+
+/* Contact section */
+.dark {
+  background-color: rgb(60, 58, 71);
+}
+
+.dark label {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+form div {
+  margin-bottom: 1.75rem;
+}
+
+form label {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  resize: none;
+  color: rgb(255, 255, 255);
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+form button {
+  width: 100%;
+  cursor: pointer;
+}
+
+#contact .btn {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+}
+
+#contact .btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(60, 58, 71);
+}
+
+p.muted {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 1.75rem;
+}
+
+/* store section */
+.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 7rem;
+}
+
+/* footer */
+footer {
+  padding: 5rem 0;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* RESPONSIVE DESIGN */
